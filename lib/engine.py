@@ -42,8 +42,15 @@ def build_audio(scenes, voice, workdir):
     for sc in scenes:
         pieces, t = [], LEAD
         sc.cues, sc.ends = [], []
-        for s in sc.sentences:
-            a, sr = tts.synth(s, voice)
+        for j, s in enumerate(sc.sentences):
+            if voice.startswith("elevenlabs:"):
+                from . import tts_elevenlabs
+                a, sr = tts_elevenlabs.synth(
+                    s, voice.split(":", 1)[1],
+                    prev_text=" ".join(sc.sentences[max(0, j - 2):j]) or None,
+                    next_text=sc.sentences[j + 1] if j + 1 < len(sc.sentences) else None)
+            else:
+                a, sr = tts.synth(s, voice)
             sc.cues.append(t)
             t += len(a) / sr
             sc.ends.append(t)
@@ -144,6 +151,7 @@ def write_srt(scenes, path):
 
 
 def build(module_name, voice, workdir, out_mp4, only=None, music_db=-30):
+    hq = voice.startswith("elevenlabs:")
     from importlib import import_module
     workdir = Path(workdir)
     workdir.mkdir(parents=True, exist_ok=True)
@@ -171,9 +179,10 @@ def build(module_name, voice, workdir, out_mp4, only=None, music_db=-30):
         ["ffmpeg", "-loglevel", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(listfile),
          "-i", str(voice_wav), "-i", str(music),
          "-filter_complex",
-         "[1:a]aresample=48000,highpass=f=70,lowpass=f=7600,"
-         "acompressor=threshold=-18dB:ratio=3:attack=5:release=120,"
-         "aecho=0.8:0.5:35:0.08[v];"
+         ("[1:a]aresample=48000,highpass=f=60[v];" if hq else
+          "[1:a]aresample=48000,highpass=f=70,lowpass=f=7600,"
+          "acompressor=threshold=-18dB:ratio=3:attack=5:release=120,"
+          "aecho=0.8:0.5:35:0.08[v];") +
          f"[2:a]volume={music_db}dB[m];"
          "[v][m]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=9[a]",
          "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-ar", "48000", "-b:a", "192k",

@@ -7,6 +7,7 @@ pip install piper-tts pillow numpy
 # Stimme nach voices/ legen (github.com/rhasspy/piper, Release v0.0.2: voice-de-thorsten-low.tar.gz)
 python3 build.py videos.v001_zinseszins.scenes --preview   # Einzelbilder zur Kontrolle
 python3 build.py videos.v001_zinseszins.scenes             # -> output/v001_zinseszins/video.mp4 + .srt
+VOICE=elevenlabs:<voice_id> python3 build.py videos.v001_zinseszins.scenes   # mit ElevenLabs-Stimme (Key via Proxy oder ELEVENLABS_API_KEY)
 python3 videos/v001_zinseszins/thumbnail.py
 ```
 

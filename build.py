@@ -1,4 +1,4 @@
-"""Usage: python build.py videos.v001_zinseszins.scenes [--preview]"""
+"""Usage: [VOICE=elevenlabs:<voice_id>] python build.py videos.v001_zinseszins.scenes [--preview]"""
 import json, sys
 from pathlib import Path
 from PIL import ImageDraw
@@ -9,7 +9,9 @@ slug = mod.split(".")[1]
 work = Path("build") / slug
 out = Path("output") / slug
 out.mkdir(parents=True, exist_ok=True)
-voice = "voices/de-thorsten-low.onnx"
+import os
+# VOICE=elevenlabs:<voice_id> for ElevenLabs, otherwise the offline Piper voice
+voice = os.environ.get("VOICE", "voices/de-thorsten-low.onnx")
 
 if "--preview" in sys.argv:
     from importlib import import_module
