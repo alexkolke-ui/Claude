@@ -1,4 +1,4 @@
-# Kanal-Setup „Nachgerechnet“
+# Kanal-Setup „Rechnet sich das?“
 
 Alle Bilder liegen in `output/brand/` und werden mit `python3 brand/make_brand.py` neu erzeugt.
 
@@ -10,16 +10,16 @@ Alle Bilder liegen in `output/brand/` und werden mit `python3 brand/make_brand.p
 
 ## 1. Name & Handle
 
-- **Kanalname:** Nachgerechnet
-- **Handle (Wunschreihenfolge):** `@nachgerechnet` → `@nachgerechnet.de` → `@nachgerechnet_tv` → `@einfachnachgerechnet`
-- Vorher prüfen: YouTube-Suche nach „Nachgerechnet“. Wenn es dort schon einen aktiven Kanal mit ähnlichem Thema gibt, lieber einen anderen Namen wählen. Für eine Marke zusätzlich beim DPMA (register.dpma.de) suchen.
+- **Kanalname:** Rechnet sich das?
+- **Handle (Wunschreihenfolge):** `@rechnetsichdas` → `@rechnetsichdas.de` → `@rechnetsichdas_tv` → `@rechnet-sich-das`
+- Vorher prüfen: YouTube-Suche nach „Rechnet sich das“ (erledigt, sofern du schon geprüft hast). Wenn es dort schon einen aktiven Kanal mit ähnlichem Thema gibt, lieber einen anderen Namen wählen. Für eine Marke zusätzlich beim DPMA (register.dpma.de) suchen.
 
 ## 2. Kanalbeschreibung (Anpassung → Basisinformationen, max. 1.000 Zeichen)
 
 ```
 Was bringen 200 € im Monat wirklich? Lohnt sich Tagesgeld noch? Was macht Inflation mit deinem Gehalt?
 
-Auf Nachgerechnet rechnen wir Geld- und Wirtschaftsthemen konsequent durch – mit animierten Grafiken, offenen Annahmen und nachvollziehbaren Formeln. Keine Versprechen, keine „Geheimtipps“, keine Produktwerbung. Nur Zahlen, die du selbst überprüfen kannst.
+Auf „Rechnet sich das?“ rechnen wir Geld- und Wirtschaftsthemen konsequent durch – mit animierten Grafiken, offenen Annahmen und nachvollziehbaren Formeln. Keine Versprechen, keine „Geheimtipps“, keine Produktwerbung. Nur Zahlen, die du selbst überprüfen kannst.
 
 Themen: Sparen & ETFs · Zinseszins · Inflation · Steuern · Rente · Wirtschaft im Alltag
 
@@ -38,7 +38,7 @@ Hinweis: Alle Inhalte dienen der Bildung und sind keine Anlageberatung. Die Spre
 ## 4. Kanal-Keywords (Einstellungen → Kanal → Grundlegende Infos)
 
 ```
-nachgerechnet, finanzen einfach erklärt, sparen, etf, etf sparplan, zinseszins, inflation, geld anlegen, vermögensaufbau, altersvorsorge, rente, steuern, wirtschaft erklärt, finanzbildung, tagesgeld, msci world
+rechnet sich das, finanzen einfach erklärt, sparen, etf, etf sparplan, zinseszins, inflation, geld anlegen, vermögensaufbau, altersvorsorge, rente, steuern, wirtschaft erklärt, finanzbildung, tagesgeld, msci world
 ```
 
 Land des Wohnsitzes: **Deutschland** (wichtig für die Werbepreise und später fürs Partnerprogramm).
@@ -63,7 +63,7 @@ Land des Wohnsitzes: **Deutschland** (wichtig für die Werbepreise und später f
 ⚠️ Dieses Video ist keine Anlageberatung, sondern eine Modellrechnung zu Bildungszwecken. Geldanlage ist mit Risiken verbunden.
 🎙 Die Sprecherstimme ist KI-generiert.
 
-🔔 Nachgerechnet – echte Zahlen statt Versprechen. Abonnieren lohnt sich (rechnerisch).
+🔔 Rechnet sich das? – echte Zahlen statt Versprechen. Abonnieren lohnt sich (rechnerisch).
 ```
 
 ## 6. Kanal-Layout (Anpassung → Layout)
