@@ -24,7 +24,7 @@ if "--preview" in sys.argv:
         work.mkdir(parents=True, exist_ok=True)
         engine.build_audio(scenes, voice, work)
         tj.write_text(json.dumps([dict(name=s.name, cues=s.cues, ends=s.ends, dur=s.dur, start=s.start) for s in scenes]))
-    bg = gfx.make_background()
+    bg = gfx.make_background(*getattr(import_module(mod), "SIZE", (gfx.W, gfx.H)))
     pv = work / "preview"; pv.mkdir(exist_ok=True)
     for i, s in enumerate(scenes):
         img = bg.copy(); s.draw(img, ImageDraw.Draw(img), s.dur - 0.4, s)
