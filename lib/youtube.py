@@ -19,7 +19,8 @@ import uuid
 from pathlib import Path
 
 REDIRECT = "http://127.0.0.1:8765"
-SCOPES = "https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/youtube.force-ssl"
+SCOPES = ("https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/youtube.force-ssl "
+          "https://www.googleapis.com/auth/yt-analytics.readonly")
 TOKEN_FILE = Path("build/.youtube_token.json")
 
 
@@ -59,10 +60,15 @@ def exchange(code_or_url):
     TOKEN_FILE.write_text(json.dumps({"refresh_token": tok["refresh_token"]}))
     os.chmod(TOKEN_FILE, 0o600)
     print("OK – Zugang gespeichert. Kanal:", channel()["snippet"]["title"])
+    print(f"Neuen Token als Geheimnis YT_REFRESH_TOKEN übernehmen: Wert steht in {TOKEN_FILE}")
 
 
 def access_token():
-    rt = os.environ.get("YT_REFRESH_TOKEN") or json.loads(TOKEN_FILE.read_text())["refresh_token"]
+    # A token from a fresh auth-code in this container wins over the (possibly older) env secret.
+    rt = (json.loads(TOKEN_FILE.read_text())["refresh_token"] if TOKEN_FILE.exists()
+          else os.environ.get("YT_REFRESH_TOKEN"))
+    if not rt:
+        sys.exit("Kein Refresh-Token: YT_REFRESH_TOKEN setzen oder auth-url/auth-code ausführen")
     cid, sec = _client()
     return _post_form("https://oauth2.googleapis.com/token", dict(
         refresh_token=rt, client_id=cid, client_secret=sec, grant_type="refresh_token"))["access_token"]

@@ -18,6 +18,12 @@ Skript → Google-TTS (Stimme `de-DE-Chirp3-HD-Iapetus`) → PIL-Animationen →
 5. Upload: `python3 -m lib.youtube upload videos/vNNN_slug` → landet als **privat** (API-Projekt ungeprüft);
    der Nutzer veröffentlicht selbst. Nie ohne Rückfrage öffentlich schalten.
 
+## Shorts
+- `videos/sNNN_slug/scenes.py` mit `SIZE = (1080, 1920)` (Engine/Preview lesen das automatisch), eine Szene, 30–45 s.
+- Inhalt nur im sicheren Bereich: x 60–940, y 200–1470 (rechts Buttons, unten Titel-Overlay).
+- Zahlen aus dem Modell des Langvideos importieren (dessen `assert`s gelten mit), eigene `assert`s für Gesagtes.
+- Rhythmus: Langvideo Do 17:30, Short Mo; Planen + „Verknüpftes Video“ macht der Nutzer im Studio.
+
 ## Inhaltliche Regeln
 - Keine Anlageberatung, keine Produktempfehlungen; Annahmen + Formeln immer in die Beschreibung.
 - Simulierte Daten als solche kennzeichnen; echte Daten mit Quelle.

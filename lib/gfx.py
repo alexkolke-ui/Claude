@@ -74,14 +74,16 @@ def num(v):
 
 
 # ---------- background ----------
-def make_background():
-    y, x = np.mgrid[0:H, 0:W].astype(np.float32)
-    d = np.sqrt(((x - W / 2) / W) ** 2 + ((y - H / 2) / H) ** 2)
+def make_background(w=W, h=H):
+    """Vignette background with channel watermark; w/h allow e.g. 1080x1920 for Shorts."""
+    y, x = np.mgrid[0:h, 0:w].astype(np.float32)
+    d = np.sqrt(((x - w / 2) / w) ** 2 + ((y - h / 2) / h) ** 2)
     v = np.clip(1.0 - d * 0.55, 0.7, 1.0)[..., None]
     base = np.array(BG, np.float32)[None, None, :] * (0.75 + 0.25 * v) + 6 * (v - 0.7)
     img = Image.fromarray(np.clip(base, 0, 255).astype(np.uint8), "RGB")
     d = ImageDraw.Draw(img)
-    d.text((60, 44), "R E C H E N W E G", font=font(22, "Bold"), fill=(70, 84, 110))
+    pos = (60, 44) if w >= h else (60, 150)   # Shorts: below the top UI bar
+    d.text(pos, "R E C H E N W E G", font=font(22, "Bold"), fill=(70, 84, 110))
     return img
 
 
