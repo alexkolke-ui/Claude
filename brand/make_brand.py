@@ -55,8 +55,7 @@ def logo(size, transparent=False, s=4):
     for i in range(1, 4):
         y = S * (0.25 + 0.17 * i)
         d.line((S * .2, y, S * .8, y), fill=(36, 46, 66, 255), width=max(2, S // 160))
-    d.text((S * .47, S * .53), "R", font=font(int(S * .60)), fill=FG, anchor="mm")
-    d.text((S * .74, S * .70), "?", font=font(int(S * .30)), fill=GREEN, anchor="mm")
+    d.text((S * .5, S * .52), "R", font=font(int(S * .62)), fill=FG, anchor="mm")
     pts = curve(S * .17, S * .76, S * .80, S * .2, k=3.4)
     line(d, pts, BG + (255,), int(S * .085))  # cut-out outline
     line(d, pts, GREEN, int(S * .045))
@@ -90,7 +89,7 @@ def banner():
     img = Image.composite(Image.new("RGB", img.size, BG), img, panel)
     d = ImageDraw.Draw(img)
     cx = W * s // 2
-    d.text((cx, (sy0 + 150) * s), "Rechnet sich das?", font=font(140 * s), fill=FG, anchor="mm")
+    d.text((cx, (sy0 + 150) * s), "Rechenweg", font=font(160 * s), fill=FG, anchor="mm")
     d.text((cx, (sy0 + 268) * s), "Geld & Wirtschaft – mit echten Zahlen statt Versprechen",
            font=font(48 * s, "SemiBold"), fill=MUTED, anchor="mm")
     tags = ["Sparen", "ETF", "Inflation", "Steuern", "Wirtschaft"]

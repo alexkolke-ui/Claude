@@ -31,12 +31,12 @@ Alternativen für A/B-Test:
 
 ⚠️ Dieses Video ist keine Anlageberatung, sondern eine Modellrechnung zu Bildungszwecken. Vergangene Renditen sind keine Garantie für die Zukunft. Geldanlage in Aktien ist mit Verlustrisiken verbunden.
 
-🔔 Rechnet sich das? Echte Zahlen statt Versprechen. Abonnieren für das nächste Video: Was Inflation wirklich mit deinem Gehalt macht.
+🔔 Rechenweg: echte Zahlen statt Versprechen. Abonnieren für das nächste Video: Was Inflation wirklich mit deinem Gehalt macht.
 
 #Zinseszins #ETF #Sparen
 
 ## Tags
-zinseszins, etf sparplan, 200 euro sparen, sparplan rechner, früh anfangen zu sparen, etf vs tagesgeld, vermögensaufbau, geld anlegen anfänger, finanzen einfach erklärt, msci world sparplan, altersvorsorge, sparen mit 25, inflation, rechnet sich das
+zinseszins, etf sparplan, 200 euro sparen, sparplan rechner, früh anfangen zu sparen, etf vs tagesgeld, vermögensaufbau, geld anlegen anfänger, finanzen einfach erklärt, msci world sparplan, altersvorsorge, sparen mit 25, inflation, rechenweg
 
 ## Einstellungen
 - Kategorie: Bildung

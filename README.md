@@ -1,4 +1,4 @@
-# Rechnet sich das? – YouTube-Produktionspipeline
+# Rechenweg – YouTube-Produktionspipeline
 
 Code-generierte Erklärvideos (Finanzen/Wirtschaft, deutsch): Skript → Offline-TTS (Piper) → Animationen (PIL) → ffmpeg.
 

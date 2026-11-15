@@ -389,7 +389,7 @@ def draw_outro(img, d, t, S):
     if a > 0:
         rrect(d, (360, 470, 900, 570), 50, fill=fade((204, 0, 0), a))
         text(d, (630, 521), "ABONNIEREN", 44, (255, 255, 255), a, "mm", "Black")
-        text(d, (630, 620), "Rechnet sich das?", 36, FG, a, "mm", "Bold")
+        text(d, (630, 620), "Rechenweg", 36, FG, a, "mm", "Bold")
         text(d, (630, 665), "echte Zahlen statt Versprechen", 26, MUTED, a, "mm", "Medium")
     a = prog(t, S.c(3), 0.5)
     if a > 0:

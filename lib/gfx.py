@@ -81,7 +81,7 @@ def make_background():
     base = np.array(BG, np.float32)[None, None, :] * (0.75 + 0.25 * v) + 6 * (v - 0.7)
     img = Image.fromarray(np.clip(base, 0, 255).astype(np.uint8), "RGB")
     d = ImageDraw.Draw(img)
-    d.text((60, 44), "R E C H N E T  S I C H  D A S ?", font=font(22, "Bold"), fill=(70, 84, 110))
+    d.text((60, 44), "R E C H E N W E G", font=font(22, "Bold"), fill=(70, 84, 110))
     return img
 
 
