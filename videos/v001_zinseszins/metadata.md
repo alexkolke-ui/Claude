@@ -30,6 +30,7 @@ Alternativen für A/B-Test:
 • Der schwankende Verlauf im Video ist eine Zufallssimulation zur Veranschaulichung, keine echten Kursdaten.
 
 ⚠️ Dieses Video ist keine Anlageberatung, sondern eine Modellrechnung zu Bildungszwecken. Vergangene Renditen sind keine Garantie für die Zukunft. Geldanlage in Aktien ist mit Verlustrisiken verbunden.
+🎙 Die Sprecherstimme ist KI-generiert, Skript und Berechnungen werden geprüft.
 
 🔔 Rechenweg: echte Zahlen statt Versprechen. Abonnieren für das nächste Video: Was Inflation wirklich mit deinem Gehalt macht.
 
