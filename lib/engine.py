@@ -49,6 +49,9 @@ def build_audio(scenes, voice, workdir):
                     s, voice.split(":", 1)[1],
                     prev_text=" ".join(sc.sentences[max(0, j - 2):j]) or None,
                     next_text=sc.sentences[j + 1] if j + 1 < len(sc.sentences) else None)
+            elif voice.startswith("google:"):
+                from . import tts_google
+                a, sr = tts_google.synth(s, voice.split(":", 1)[1])
             else:
                 a, sr = tts.synth(s, voice)
             sc.cues.append(t)
@@ -151,7 +154,7 @@ def write_srt(scenes, path):
 
 
 def build(module_name, voice, workdir, out_mp4, only=None, music_db=-30):
-    hq = voice.startswith("elevenlabs:")
+    hq = voice.startswith(("elevenlabs:", "google:"))
     from importlib import import_module
     workdir = Path(workdir)
     workdir.mkdir(parents=True, exist_ok=True)

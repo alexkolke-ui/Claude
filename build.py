@@ -10,7 +10,7 @@ work = Path("build") / slug
 out = Path("output") / slug
 out.mkdir(parents=True, exist_ok=True)
 import os
-# VOICE=elevenlabs:<voice_id> for ElevenLabs, otherwise the offline Piper voice
+# VOICE=google:de-DE-Chirp3-HD-<Name> or VOICE=elevenlabs:<voice_id>, otherwise the offline Piper voice
 voice = os.environ.get("VOICE", "voices/de-thorsten-low.onnx")
 
 if "--preview" in sys.argv:
