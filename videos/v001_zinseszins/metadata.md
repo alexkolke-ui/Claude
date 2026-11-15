@@ -13,13 +13,13 @@ Alternativen für A/B-Test:
 
 ⏱ Kapitel
 0:00 200 € im Monat – zwei sehr verschiedene Ergebnisse
-0:17 Die Spielregeln & Annahmen
+0:18 Die Spielregeln & Annahmen
 0:46 Sparschwein vs. Tagesgeld vs. ETF
-1:36 Zinseszins: Warum die Kurve so steil wird
-2:00 Anna vs. Ben: Start mit 25 oder 35
-2:29 Was Ben sparen müsste, um aufzuholen
-2:46 3 ehrliche Punkte: Inflation, Schwankungen, Steuern
-3:23 Fazit
+1:37 Zinseszins: Warum die Kurve so steil wird
+2:01 Anna vs. Ben: Start mit 25 oder 35
+2:28 Was Ben sparen müsste, um aufzuholen
+2:44 3 ehrliche Punkte: Inflation, Schwankungen, Steuern
+3:21 Fazit
 
 📐 Annahmen & Formel
 • Sparrate 200 € pro Monat, Einzahlung monatlich
@@ -42,6 +42,6 @@ zinseszins, etf sparplan, 200 euro sparen, sparplan rechner, früh anfangen zu s
 - Kategorie: Bildung
 - Sprache: Deutsch · Untertitel: `video.srt` hochladen (Deutsch)
 - „Für Kinder gemacht“: Nein
-- Offenlegung „Veränderte oder synthetische Inhalte“: Ja (synthetische Stimme). Pflicht ist das nur bei realistisch wirkenden Inhalten; bei einer KI-Stimme ist die Angabe trotzdem der sichere Weg.
+- Offenlegung „Veränderte oder synthetische Inhalte“: Ja (synthetische Stimme: Google Cloud TTS, de-DE-Chirp3-HD-Iapetus). Pflicht ist das nur bei realistisch wirkenden Inhalten; bei einer KI-Stimme ist die Angabe trotzdem der sichere Weg.
 - Endcard (letzte ~6 s): Abo-Element links, Video-Element rechts (Platz im Layout ist frei)
 - Thumbnail: `thumbnail.png` (1280×720)

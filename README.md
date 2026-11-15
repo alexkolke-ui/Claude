@@ -13,3 +13,5 @@ python3 videos/v001_zinseszins/thumbnail.py
 
 - `lib/` – TTS, Grafik-Toolkit, Szenen-Engine (Timing aus der Sprachspur, paralleles Rendern, Untertitel, Musikbett)
 - `videos/vNNN_*/` – pro Video: `scenes.py` (Text + Animation), `thumbnail.py`, `metadata.md`
+
+Kanalstimme: `VOICE=google:de-DE-Chirp3-HD-Iapetus` (Google Cloud TTS, Key via `GOOGLE_TTS_API_KEY` oder Network Secret für `texttospeech.googleapis.com`).
