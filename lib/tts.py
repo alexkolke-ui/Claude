@@ -3,8 +3,6 @@ import wave
 from pathlib import Path
 
 import numpy as np
-from piper import PiperVoice
-from piper.config import SynthesisConfig
 
 _VOICE = None
 
@@ -12,6 +10,7 @@ _VOICE = None
 def _voice(model_path):
     global _VOICE
     if _VOICE is None:
+        from piper import PiperVoice  # optional dependency (offline fallback voice)
         _VOICE = PiperVoice.load(str(model_path))
     return _VOICE
 
@@ -28,6 +27,7 @@ def _fix(phonemes):
 
 def synth(text, model_path, length_scale=1.08):
     """Return float32 mono audio and sample rate for one sentence."""
+    from piper.config import SynthesisConfig
     v = _voice(model_path)
     cfg = SynthesisConfig(length_scale=length_scale, noise_scale=0.6, noise_w_scale=0.7,
                           normalize_audio=False)

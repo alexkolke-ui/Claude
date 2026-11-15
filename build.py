@@ -11,7 +11,7 @@ out = Path("output") / slug
 out.mkdir(parents=True, exist_ok=True)
 import os
 # VOICE=google:de-DE-Chirp3-HD-<Name> or VOICE=elevenlabs:<voice_id>, otherwise the offline Piper voice
-voice = os.environ.get("VOICE", "voices/de-thorsten-low.onnx")
+voice = os.environ.get("VOICE", "google:de-DE-Chirp3-HD-Iapetus")
 
 if "--preview" in sys.argv:
     from importlib import import_module
