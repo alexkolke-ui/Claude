@@ -17,12 +17,18 @@ Skript → Google-TTS (Stimme `de-DE-Chirp3-HD-Iapetus`) → PIL-Animationen →
 4. Thumbnail-Skript + `metadata.md` (Struktur wie v001; Kapitel aus `build/<slug>/timing.json`).
 5. Upload: `python3 -m lib.youtube upload videos/vNNN_slug` → landet als **privat** (API-Projekt ungeprüft);
    der Nutzer veröffentlicht selbst. Nie ohne Rückfrage öffentlich schalten.
+   Einplanen nur mit vom Nutzer bestätigtem Termin: `--publish-at "YYYY-MM-DD HH:MM"` beim Upload oder
+   `python3 -m lib.youtube schedule videos/<slug> "YYYY-MM-DD HH:MM"` (Europe/Berlin, bleibt bis dahin privat).
+   Keine `<` oder `>` in der Beschreibung (YouTube lehnt sie ab: invalidDescription).
+   `invalid_grant` = Refresh-Token abgelaufen → `auth-url`/`auth-code`, Nutzer trägt neuen `YT_REFRESH_TOKEN` ein.
 
 ## Shorts
 - `videos/sNNN_slug/scenes.py` mit `SIZE = (1080, 1920)` (Engine/Preview lesen das automatisch), eine Szene, 30–45 s.
 - Inhalt nur im sicheren Bereich: x 60–940, y 200–1470 (rechts Buttons, unten Titel-Overlay).
 - Zahlen aus dem Modell des Langvideos importieren (dessen `assert`s gelten mit), eigene `assert`s für Gesagtes.
-- Rhythmus: Langvideo Do 17:30, Short Mo; Planen + „Verknüpftes Video“ macht der Nutzer im Studio.
+- Rhythmus (ab 30.11.2026): 1 Langvideo Do 17:30 + 4–5 Shorts (Mo, Di, Mi, Sa, So, je 17:00).
+  „Verknüpftes Video“ setzt der Nutzer im Studio.
+- Formate abwechseln, nicht 5× dieselbe Kartenoptik: „Zahl der Woche“, „Mythos vs. Rechnung“, „Was kostet X wirklich?“.
 
 ## Inhaltliche Regeln
 - Keine Anlageberatung, keine Produktempfehlungen; Annahmen + Formeln immer in die Beschreibung.

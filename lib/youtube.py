@@ -4,7 +4,9 @@ video upload, thumbnail and caption upload.
 Usage:
   python3 -m lib.youtube auth-url                      # prints the consent URL
   python3 -m lib.youtube auth-code '<redirect URL or code>'
-  python3 -m lib.youtube upload videos/v001_zinseszins [--public]
+  python3 -m lib.youtube upload videos/v001_zinseszins [--publish-at "2026-12-03 17:30"]
+  python3 -m lib.youtube schedule videos/v001_zinseszins "2026-12-03 17:30"   # bereits hochgeladenes Video
+  (Zeiten in Europe/Berlin; das Video bleibt bis dahin privat und geht dann automatisch online)
 
 Needs env YT_CLIENT_ID / YT_CLIENT_SECRET (OAuth client of type "Desktop app").
 The refresh token is stored in build/.youtube_token.json (not committed).
@@ -103,7 +105,33 @@ def parse_metadata(md_path):
     return title, desc, tags
 
 
-def upload(video_dir, public=False):
+def publish_at_utc(local):
+    """'YYYY-MM-DD HH:MM' in Europe/Berlin -> RFC3339 UTC, must lie in the future."""
+    import datetime as dt
+    from zoneinfo import ZoneInfo
+    t = dt.datetime.strptime(local, "%Y-%m-%d %H:%M").replace(tzinfo=ZoneInfo("Europe/Berlin"))
+    if t <= dt.datetime.now(dt.timezone.utc) + dt.timedelta(minutes=30):
+        sys.exit(f"Veröffentlichungszeit {local} liegt nicht mindestens 30 min in der Zukunft")
+    return t.astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def schedule(video_dir, local):
+    """Set publishAt on an already uploaded video (id from output/<slug>/youtube_id.txt)."""
+    vid = (Path("output") / Path(video_dir).name / "youtube_id.txt").read_text().strip()
+    token = access_token()
+    cur = _api("GET", f"https://www.googleapis.com/youtube/v3/videos?part=status&id={vid}", token=token)["items"][0]
+    st = cur["status"]
+    if st["privacyStatus"] != "private":
+        sys.exit(f"{vid} ist {st['privacyStatus']} – nur private Videos werden eingeplant")
+    keep = ("embeddable", "license", "publicStatsViewable", "selfDeclaredMadeForKids", "containsSyntheticMedia")
+    status = {k: st[k] for k in keep if k in st}
+    status.update(privacyStatus="private", publishAt=publish_at_utc(local))
+    res = _api("PUT", "https://www.googleapis.com/youtube/v3/videos?part=status", {"id": vid, "status": status},
+               token=token)
+    print(vid, "eingeplant:", res["status"].get("publishAt"), "Status:", res["status"]["privacyStatus"])
+
+
+def upload(video_dir, public=False, publish_at=None):
     video_dir = Path(video_dir)
     slug = video_dir.name
     out = Path("output") / slug
@@ -113,6 +141,7 @@ def upload(video_dir, public=False):
         "snippet": {"title": title, "description": desc, "tags": tags, "categoryId": "27",
                     "defaultLanguage": "de", "defaultAudioLanguage": "de"},
         "status": {"privacyStatus": "public" if public else "private",
+                   **({"publishAt": publish_at_utc(publish_at)} if publish_at and not public else {}),
                    "selfDeclaredMadeForKids": False, "containsSyntheticMedia": True,
                    "embeddable": True, "license": "youtube"},
     }
@@ -126,7 +155,8 @@ def upload(video_dir, public=False):
     res = _api("PUT", loc, video.read_bytes(), token=token,
                headers={"Content-Type": "video/mp4"})
     vid = res["id"]
-    print("Video:", f"https://youtu.be/{vid}", "Status:", res["status"]["privacyStatus"])
+    print("Video:", f"https://youtu.be/{vid}", "Status:", res["status"]["privacyStatus"],
+          "geplant:", res["status"].get("publishAt", "–"))
 
     thumb = out / "thumbnail.png"
     if thumb.exists():
@@ -157,7 +187,10 @@ if __name__ == "__main__":
     elif cmd == "auth-code":
         exchange(sys.argv[2])
     elif cmd == "upload":
-        upload(sys.argv[2], public="--public" in sys.argv)
+        pa = sys.argv[sys.argv.index("--publish-at") + 1] if "--publish-at" in sys.argv else None
+        upload(sys.argv[2], public="--public" in sys.argv, publish_at=pa)
+    elif cmd == "schedule":
+        schedule(sys.argv[2], sys.argv[3])
     elif cmd == "check":
         print(parse_metadata(Path(sys.argv[2]) / "metadata.md"))
     else:
