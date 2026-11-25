@@ -5,6 +5,7 @@ Usage:
   python3 -m lib.youtube auth-url                      # prints the consent URL
   python3 -m lib.youtube auth-code '<redirect URL or code>'
   python3 -m lib.youtube upload videos/v001_zinseszins [--publish-at "2026-12-03 17:30"]
+  python3 -m lib.youtube captions videos/<slug>                                # nur Untertitel nachladen
   python3 -m lib.youtube schedule videos/v001_zinseszins "2026-12-03 17:30"   # bereits hochgeladenes Video
   (Zeiten in Europe/Berlin; das Video bleibt bis dahin privat und geht dann automatisch online)
 
@@ -132,6 +133,20 @@ def schedule(video_dir, local):
     print(vid, "eingeplant:", res["status"].get("publishAt"), "Status:", res["status"]["privacyStatus"])
 
 
+def upload_captions(vid, out, token):
+    srt = Path(out) / "video.srt"
+    if srt.exists():
+        boundary = uuid.uuid4().hex
+        part_meta = json.dumps({"snippet": {"videoId": vid, "language": "de", "name": "Deutsch"}})
+        body = (f"--{boundary}\r\nContent-Type: application/json; charset=UTF-8\r\n\r\n{part_meta}\r\n"
+                f"--{boundary}\r\nContent-Type: application/octet-stream\r\n\r\n").encode() \
+            + srt.read_bytes() + f"\r\n--{boundary}--".encode()
+        _api("POST", "https://www.googleapis.com/upload/youtube/v3/captions"
+             "?uploadType=multipart&part=snippet", body, token=token,
+             headers={"Content-Type": f"multipart/related; boundary={boundary}"})
+        print("Untertitel hochgeladen")
+
+
 def upload(video_dir, public=False, publish_at=None):
     video_dir = Path(video_dir)
     slug = video_dir.name
@@ -159,6 +174,7 @@ def upload(video_dir, public=False, publish_at=None):
     print("Video:", f"https://youtu.be/{vid}", "Status:", res["status"]["privacyStatus"],
           "geplant:", res["status"].get("publishAt", "–"))
 
+    (out / "youtube_id.txt").write_text(vid)   # sofort sichern, falls Thumbnail/Untertitel scheitern
     thumb = out / "thumbnail.png"
     if thumb.exists():
         _api("POST", f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={vid}"
@@ -166,17 +182,7 @@ def upload(video_dir, public=False, publish_at=None):
              headers={"Content-Type": "image/png"})
         print("Thumbnail gesetzt")
 
-    srt = out / "video.srt"
-    if srt.exists():
-        boundary = uuid.uuid4().hex
-        part_meta = json.dumps({"snippet": {"videoId": vid, "language": "de", "name": "Deutsch"}})
-        body = (f"--{boundary}\r\nContent-Type: application/json; charset=UTF-8\r\n\r\n{part_meta}\r\n"
-                f"--{boundary}\r\nContent-Type: application/octet-stream\r\n\r\n").encode() \
-            + srt.read_bytes() + f"\r\n--{boundary}--".encode()
-        _api("POST", "https://www.googleapis.com/upload/youtube/v3/captions"
-             "?uploadType=multipart&part=snippet", body, token=token,
-             headers={"Content-Type": f"multipart/related; boundary={boundary}"})
-        print("Untertitel hochgeladen")
+    upload_captions(vid, out, token)
     (out / "youtube_id.txt").write_text(vid)
     return vid
 
@@ -190,6 +196,9 @@ if __name__ == "__main__":
     elif cmd == "upload":
         pa = sys.argv[sys.argv.index("--publish-at") + 1] if "--publish-at" in sys.argv else None
         upload(sys.argv[2], public="--public" in sys.argv, publish_at=pa)
+    elif cmd == "captions":
+        out = Path("output") / Path(sys.argv[2]).name
+        upload_captions((out / "youtube_id.txt").read_text().strip(), out, access_token())
     elif cmd == "schedule":
         schedule(sys.argv[2], sys.argv[3])
     elif cmd == "check":

@@ -21,8 +21,11 @@ Skript → Google-TTS (Stimme `de-DE-Chirp3-HD-Iapetus`) → PIL-Animationen →
    `python3 -m lib.youtube schedule videos/<slug> "YYYY-MM-DD HH:MM"` (Europe/Berlin, bleibt bis dahin privat).
    Keine `<` oder `>` in der Beschreibung (YouTube lehnt sie ab: invalidDescription).
    `invalid_grant` = Refresh-Token abgelaufen → `auth-url`/`auth-code`, Nutzer trägt neuen `YT_REFRESH_TOKEN` ein.
+   `quotaExceeded` = Tageskontingent der API weg (Reset 0:00 Pacific = 9:00 MEZ). Fehlende Untertitel mit
+   `python3 -m lib.youtube captions videos/<slug>` nachholen; die Video-ID steht in `output/<slug>/youtube_id.txt`.
 
 ## Shorts
+- Formate in `lib/shorts.py` (`zahl`, `mythos`, `vergleich`); Brutto-Netto 2026 nach BMF-PAP in `lib/lohn2026.py`.
 - `videos/sNNN_slug/scenes.py` mit `SIZE = (1080, 1920)` (Engine/Preview lesen das automatisch), eine Szene, 30–45 s.
 - Inhalt nur im sicheren Bereich: x 60–940, y 200–1470 (rechts Buttons, unten Titel-Overlay).
 - Zahlen aus dem Modell des Langvideos importieren (dessen `assert`s gelten mit), eigene `assert`s für Gesagtes.
