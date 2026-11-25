@@ -125,7 +125,8 @@ def schedule(video_dir, local):
         sys.exit(f"{vid} ist {st['privacyStatus']} – nur private Videos werden eingeplant")
     keep = ("embeddable", "license", "publicStatsViewable", "selfDeclaredMadeForKids", "containsSyntheticMedia")
     status = {k: st[k] for k in keep if k in st}
-    status.update(privacyStatus="private", publishAt=publish_at_utc(local))
+    # containsSyntheticMedia is not returned by videos.list – always re-declare it (KI-Stimme)
+    status.update(privacyStatus="private", publishAt=publish_at_utc(local), containsSyntheticMedia=True)
     res = _api("PUT", "https://www.googleapis.com/youtube/v3/videos?part=status", {"id": vid, "status": status},
                token=token)
     print(vid, "eingeplant:", res["status"].get("publishAt"), "Status:", res["status"]["privacyStatus"])
