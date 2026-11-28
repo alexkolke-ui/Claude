@@ -1,0 +1,404 @@
+﻿"";BBIN1.M.D0.ECB.ECBFAC.EUR.ME;BBIN1.M.D0.ECB.ECBFAC.EUR.ME_FLAGS
+"";Zinssatz der EZB für die Einlagefazilität / Stand am Monatsende / SU0200;
+Dezimalstellen;2;
+Dimension;Eins;
+Einheit;% p.a.;
+Format der Zeitangabe;P1M;
+Kategorie;ZRNB;
+Kommentar;Mit Wirkung zum 18. September 2024 wird die Spanne zwischen den Zinssätzen für die Hauptrefinanzierungsgeschäfte und für die Einlagefazilität auf 15 Basispunkte reduziert. Die Spanne zwischen den Zinssätzen für die Spitzenrefinanzierungsfazilität und für die Hauptrefinanzierungsgeschäfte bleibt unverändert bei 25 Basispunkten.                                                                                                                                                                                                                                                                                                                                                        Am 22. Dezember 1998 kündigte die Europäische Zentralbank (EZB) an, dass zwischen dem 4. und dem 21. Januar 1999 ausnahmsweise ein enger Korridor von 50 Basispunkten zwischen den Zinssätzen für die Spitzenrefinanzierungsfazilität (3,25 %) und die Einlagefazilität (2,75 %) angewandt wird. Damit sollte den Marktteilnehmern der Übergang zu dem neuen System erleichtert werden.;
+Stand vom;30.10.2026 11:58:14 Uhr;
+1999-01;2,00;Bemerkung
+1999-02;2,00;
+1999-03;2,00;
+1999-04;1,50;Bemerkung
+1999-05;1,50;
+1999-06;1,50;
+1999-07;1,50;
+1999-08;1,50;
+1999-09;1,50;
+1999-10;1,50;
+1999-11;2,00;Bemerkung
+1999-12;2,00;
+2000-01;2,00;
+2000-02;2,25;Bemerkung
+2000-03;2,50;Bemerkung
+2000-04;2,75;Bemerkung
+2000-05;2,75;
+2000-06;3,25;Bemerkung
+2000-07;3,25;
+2000-08;3,25;
+2000-09;3,50;Bemerkung
+2000-10;3,75;Bemerkung
+2000-11;3,75;
+2000-12;3,75;
+2001-01;3,75;
+2001-02;3,75;
+2001-03;3,75;
+2001-04;3,75;
+2001-05;3,50;Bemerkung
+2001-06;3,50;
+2001-07;3,50;
+2001-08;3,25;Bemerkung
+2001-09;2,75;Bemerkung
+2001-10;2,75;
+2001-11;2,25;Bemerkung
+2001-12;2,25;
+2002-01;2,25;
+2002-02;2,25;
+2002-03;2,25;
+2002-04;2,25;
+2002-05;2,25;
+2002-06;2,25;
+2002-07;2,25;
+2002-08;2,25;
+2002-09;2,25;
+2002-10;2,25;
+2002-11;2,25;
+2002-12;1,75;Bemerkung
+2003-01;1,75;
+2003-02;1,75;
+2003-03;1,50;Bemerkung
+2003-04;1,50;
+2003-05;1,50;
+2003-06;1,00;Bemerkung
+2003-07;1,00;
+2003-08;1,00;
+2003-09;1,00;
+2003-10;1,00;
+2003-11;1,00;
+2003-12;1,00;
+2004-01;1,00;
+2004-02;1,00;
+2004-03;1,00;
+2004-04;1,00;
+2004-05;1,00;
+2004-06;1,00;
+2004-07;1,00;
+2004-08;1,00;
+2004-09;1,00;
+2004-10;1,00;
+2004-11;1,00;
+2004-12;1,00;
+2005-01;1,00;
+2005-02;1,00;
+2005-03;1,00;
+2005-04;1,00;
+2005-05;1,00;
+2005-06;1,00;
+2005-07;1,00;
+2005-08;1,00;
+2005-09;1,00;
+2005-10;1,00;
+2005-11;1,00;
+2005-12;1,25;Bemerkung
+2006-01;1,25;
+2006-02;1,25;
+2006-03;1,50;Bemerkung
+2006-04;1,50;
+2006-05;1,50;
+2006-06;1,75;Bemerkung
+2006-07;1,75;
+2006-08;2,00;Bemerkung
+2006-09;2,00;
+2006-10;2,25;Bemerkung
+2006-11;2,25;
+2006-12;2,50;Bemerkung
+2007-01;2,50;
+2007-02;2,50;
+2007-03;2,75;Bemerkung
+2007-04;2,75;
+2007-05;2,75;
+2007-06;3,00;Bemerkung
+2007-07;3,00;
+2007-08;3,00;
+2007-09;3,00;
+2007-10;3,00;
+2007-11;3,00;
+2007-12;3,00;
+2008-01;3,00;
+2008-02;3,00;
+2008-03;3,00;
+2008-04;3,00;
+2008-05;3,00;
+2008-06;3,00;
+2008-07;3,25;Bemerkung
+2008-08;3,25;
+2008-09;3,25;
+2008-10;3,25;Bemerkung
+2008-11;2,75;Bemerkung
+2008-12;2,00;Bemerkung
+2009-01;1,00;Bemerkung
+2009-02;1,00;
+2009-03;0,50;Bemerkung
+2009-04;0,25;Bemerkung
+2009-05;0,25;
+2009-06;0,25;
+2009-07;0,25;
+2009-08;0,25;
+2009-09;0,25;
+2009-10;0,25;
+2009-11;0,25;
+2009-12;0,25;
+2010-01;0,25;
+2010-02;0,25;
+2010-03;0,25;
+2010-04;0,25;
+2010-05;0,25;
+2010-06;0,25;
+2010-07;0,25;
+2010-08;0,25;
+2010-09;0,25;
+2010-10;0,25;
+2010-11;0,25;
+2010-12;0,25;
+2011-01;0,25;
+2011-02;0,25;
+2011-03;0,25;
+2011-04;0,50;Bemerkung
+2011-05;0,50;
+2011-06;0,50;
+2011-07;0,75;Bemerkung
+2011-08;0,75;
+2011-09;0,75;
+2011-10;0,75;
+2011-11;0,50;Bemerkung
+2011-12;0,25;Bemerkung
+2012-01;0,25;
+2012-02;0,25;
+2012-03;0,25;
+2012-04;0,25;
+2012-05;0,25;
+2012-06;0,25;
+2012-07;0,00;Bemerkung
+2012-08;0,00;
+2012-09;0,00;
+2012-10;0,00;
+2012-11;0,00;
+2012-12;0,00;
+2013-01;0,00;
+2013-02;0,00;
+2013-03;0,00;
+2013-04;0,00;
+2013-05;0,00;
+2013-06;0,00;
+2013-07;0,00;
+2013-08;0,00;
+2013-09;0,00;
+2013-10;0,00;
+2013-11;0,00;
+2013-12;0,00;
+2014-01;0,00;
+2014-02;0,00;
+2014-03;0,00;
+2014-04;0,00;
+2014-05;0,00;
+2014-06;-0,10;Bemerkung
+2014-07;-0,10;
+2014-08;-0,10;
+2014-09;-0,20;Bemerkung
+2014-10;-0,20;
+2014-11;-0,20;
+2014-12;-0,20;
+2015-01;-0,20;
+2015-02;-0,20;
+2015-03;-0,20;
+2015-04;-0,20;
+2015-05;-0,20;
+2015-06;-0,20;
+2015-07;-0,20;
+2015-08;-0,20;
+2015-09;-0,20;
+2015-10;-0,20;
+2015-11;-0,20;
+2015-12;-0,30;Bemerkung
+2016-01;-0,30;
+2016-02;-0,30;
+2016-03;-0,40;Bemerkung
+2016-04;-0,40;
+2016-05;-0,40;
+2016-06;-0,40;
+2016-07;-0,40;
+2016-08;-0,40;
+2016-09;-0,40;
+2016-10;-0,40;
+2016-11;-0,40;
+2016-12;-0,40;
+2017-01;-0,40;
+2017-02;-0,40;
+2017-03;-0,40;
+2017-04;-0,40;
+2017-05;-0,40;
+2017-06;-0,40;
+2017-07;-0,40;
+2017-08;-0,40;
+2017-09;-0,40;
+2017-10;-0,40;
+2017-11;-0,40;
+2017-12;-0,40;
+2018-01;-0,40;
+2018-02;-0,40;
+2018-03;-0,40;
+2018-04;-0,40;
+2018-05;-0,40;
+2018-06;-0,40;
+2018-07;-0,40;
+2018-08;-0,40;
+2018-09;-0,40;
+2018-10;-0,40;
+2018-11;-0,40;
+2018-12;-0,40;
+2019-01;-0,40;
+2019-02;-0,40;
+2019-03;-0,40;
+2019-04;-0,40;
+2019-05;-0,40;
+2019-06;-0,40;
+2019-07;-0,40;
+2019-08;-0,40;
+2019-09;-0,50;Bemerkung
+2019-10;-0,50;
+2019-11;-0,50;
+2019-12;-0,50;
+2020-01;-0,50;
+2020-02;-0,50;
+2020-03;-0,50;
+2020-04;-0,50;
+2020-05;-0,50;
+2020-06;-0,50;
+2020-07;-0,50;
+2020-08;-0,50;
+2020-09;-0,50;
+2020-10;-0,50;
+2020-11;-0,50;
+2020-12;-0,50;
+2021-01;-0,50;
+2021-02;-0,50;
+2021-03;-0,50;
+2021-04;-0,50;
+2021-05;-0,50;
+2021-06;-0,50;
+2021-07;-0,50;
+2021-08;-0,50;
+2021-09;-0,50;
+2021-10;-0,50;
+2021-11;-0,50;
+2021-12;-0,50;
+2022-01;-0,50;
+2022-02;-0,50;
+2022-03;-0,50;
+2022-04;-0,50;
+2022-05;-0,50;
+2022-06;-0,50;
+2022-07;0,00;Bemerkung
+2022-08;0,00;
+2022-09;0,75;Bemerkung
+2022-10;0,75;
+2022-11;1,50;Bemerkung
+2022-12;2,00;Bemerkung
+2023-01;2,00;
+2023-02;2,50;Bemerkung
+2023-03;3,00;Bemerkung
+2023-04;3,00;
+2023-05;3,25;Bemerkung
+2023-06;3,50;Bemerkung
+2023-07;3,50;
+2023-08;3,75;Bemerkung
+2023-09;4,00;Bemerkung
+2023-10;4,00;
+2023-11;4,00;
+2023-12;4,00;
+2024-01;4,00;
+2024-02;4,00;
+2024-03;4,00;
+2024-04;4,00;
+2024-05;4,00;
+2024-06;3,75;Bemerkung
+2024-07;3,75;
+2024-08;3,75;
+2024-09;3,50;Bemerkung
+2024-10;3,25;Bemerkung
+2024-11;3,25;
+2024-12;3,00;Bemerkung
+2025-01;3,00;
+2025-02;2,75;Bemerkung
+2025-03;2,50;Bemerkung
+2025-04;2,25;Bemerkung
+2025-05;2,25;
+2025-06;2,00;Bemerkung
+2025-07;2,00;
+2025-08;2,00;
+2025-09;2,00;
+2025-10;2,00;
+2025-11;2,00;
+2025-12;2,00;
+2026-01;2,00;
+2026-02;2,00;
+2026-03;2,00;
+2026-04;2,00;
+2026-05;2,00;
+2026-06;2,25;Bemerkung
+2026-07;2,25;
+2026-08;2,25;
+2026-09;2,50;Bemerkung
+2026-10;2,50;
+"";"Bemerkung zu 1999-01: Ab 1. Jan. 2,00 %, ab 4. Jan. 2,75 % (Beschluss des EZB-Rates vom 22. Dez. 1998); ab 22. Jan. 2,00 % (Beschluss des EZB-Rates vom 21. Jan. 1999)";
+"";Bemerkung zu 1999-04: Ab 9. April 1,50 % (Beschluss des EZB-Rates vom 8. April 1999);
+"";Bemerkung zu 1999-11: Ab 5. Nov. 2,00 % (Beschluss des EZB-Rates vom 4. Nov. 1999);
+"";Bemerkung zu 2000-02: Ab 4. Febr. 2,25 % (Beschluss des EZB-Rates vom 3. Febr. 2000);
+"";Bemerkung zu 2000-03: Ab 17. März 2,50 % (Beschluss des EZB-Rates vom 16. März 2000);
+"";Bemerkung zu 2000-04: Ab 28. April 2,75 % (Beschluss des EZB-Rates vom 27. April 2000);
+"";Bemerkung zu 2000-06: Ab 9. Juni 3,25 % (Beschluss des EZB-Rates vom 8. Juni 2000);
+"";Bemerkung zu 2000-09: Ab 1. Sept. 3,50 % (Beschluss des EZB-Rates vom 31. Aug. 2000);
+"";Bemerkung zu 2000-10: Ab 6. Okt. 3,75 % (Beschluss des EZB-Rates vom 5. Okt. 2000);
+"";Bemerkung zu 2001-05: Ab 11. Mai 3,50 % (Beschluss des EZB-Rates vom 10. Mai 2001)a;
+"";Bemerkung zu 2001-08: Ab 31. Aug. 3,25 % (Beschluss des EZB-Rates vom 30. Aug. 2001);
+"";Bemerkung zu 2001-09: Ab 18. Sept. 2,75 % (Beschluss des EZB-Rates vom 17. Sept. 2001);
+"";Bemerkung zu 2001-11: Ab 9. Nov. 2,25 % (Beschluss des EZB-Rates vom 8. Nov. 2001);
+"";Bemerkung zu 2002-12: Ab 6. Dez. 1,75 % (Beschluss des EZB-Rates vom 5. Dez. 2002);
+"";Bemerkung zu 2003-03: Ab 7. März 1,50 % (Beschluss des EZB-Rates vom 6. März 2003);
+"";Bemerkung zu 2003-06: Ab 6. Juni 1,00 % (Beschluss des EZB-Rates vom 5. Juni 2003);
+"";Bemerkung zu 2005-12: Ab 6. Dez. 1,25 % (Beschluss des EZB-Rates vom 1. Dez. 2005);
+"";Bemerkung zu 2006-03: Ab 8. März 1,50 % (Beschluss des EZB-Rates vom 2. März 2006);
+"";Bemerkung zu 2006-06: Ab 15. Juni 1,75 % (Beschluss des EZB-Rates vom 8. Juni 2006);
+"";Bemerkung zu 2006-08: Ab 9. Aug. 2,00 % (Beschluss des EZB-Rates vom 3. Aug. 2006);
+"";Bemerkung zu 2006-10: Ab 11. Okt. 2,25 % (Beschluss des EZB-Rates vom 5. Okt. 2006);
+"";Bemerkung zu 2006-12: Ab 13. Dez. 2,50 % (Beschluss des EZB-Rates vom 7. Dez. 2006);
+"";Bemerkung zu 2007-03: Ab 14. März 2,75 % (Beschluss des EZB-Rates vom 8. März 2007);
+"";Bemerkung zu 2007-06: Ab 13. Juni 3,00 % (Beschluss des EZB-Rates vom 6. Juni 2007);
+"";Bemerkung zu 2008-07: Ab 9. Juli 3,25 % (Beschluss des EZB-Rates vom 3. Juli 2008);
+"";"Bemerkung zu 2008-10: Ab 8. Okt. 2,75 % (Telekonferenz des EZB-Rates); ab 9. Okt. 3,25 % (Telekonferenz des EZB-Rates vom 8. Okt. 2008)";
+"";Bemerkung zu 2008-11: Ab 12. Nov. 2,75 % (Beschluss des EZB-Rates vom 6. Nov. 2008);
+"";Bemerkung zu 2008-12: Ab 10. Dez. 2,00 % (Beschluss des EZB-Rates vom 4. Dez. 2008);
+"";Bemerkung zu 2009-01: Ab 21. Jan. 1,00 % (Beschluss des EZB-Rates vom 15. Jan. 2009);
+"";Bemerkung zu 2009-03: Ab 11. März 0,50 % (Beschluss des EZB-Rates vom 5. März 2009);
+"";Bemerkung zu 2009-04: Ab 8. April 0,25 % (Beschluss des EZB-Rates vom 2. April 2009);
+"";Bemerkung zu 2011-04: Ab 13. April 0,50 % (Beschluss des EZB-Rates vom 7. April 2011);
+"";Bemerkung zu 2011-07: Ab 13. Juli 0,75 % (Beschluss des EZB-Rates vom 7. Juli 2011);
+"";Bemerkung zu 2011-11: Ab 9. Nov. 0,50 % (Beschluss des EZB-Rates vom 3. Nov. 2011);
+"";Bemerkung zu 2011-12: Ab 14. Dez. 0,25 % (Beschluss des EZB-Rates vom 8. Dez. 2011);
+"";Bemerkung zu 2012-07: Ab 11. Juli 0,00 % (Beschluss des EZB-Rates vom 5. Juli 2012);
+"";Bemerkung zu 2014-06: Ab 11. Juni -0,10 % (Beschluss des EZB-Rates vom 5. Juni 2014);
+"";Bemerkung zu 2014-09: Ab 10. Sept. -0,20 % (Beschluss des EZB-Rates vom 4. Sept. 2014);
+"";Bemerkung zu 2015-12: Ab 9. Dez. -0,30 % (Beschluss des EZB-Rates vom 3. Dez. 2015);
+"";Bemerkung zu 2016-03: Ab 16. März -0,40 % (Beschluss des EZB-Rates vom 10. März 2016);
+"";Bemerkung zu 2019-09: Ab 18. September -0,50 % (Beschluss des EZB-Rates vom 12. September 2019);
+"";Bemerkung zu 2022-07: Ab 27. Juli 0,00% (Beschluss des EZB-Rates vom 21. Juli 2022);
+"";Bemerkung zu 2022-09: Ab 14. September 0,75% (Beschluss des EZB-Rates vom 8. September 2022);
+"";Bemerkung zu 2022-11: Ab 2. November 1,50% (Beschluss des EZB-Rates vom 27. Oktober 2022);
+"";Bemerkung zu 2022-12: Ab 21. Dezember 2,00% (Beschluss des EZB-Rates vom 15. Dezember 2022);
+"";Bemerkung zu 2023-02: Ab 8. Februar 2,50% (Beschluss des EZB-Rates vom 2. Februar 2023);
+"";Bemerkung zu 2023-03: Ab 22. März 3,00% (Beschluss des EZB-Rates vom 16. März 2023);
+"";Bemerkung zu 2023-05: Ab 10. Mai 3,25% (Beschluss des EZB-Rates vom 4. Mai 2023);
+"";Bemerkung zu 2023-06: Ab 21. Juni 3,50% (Beschluss des EZB-Rates vom 15. Juni 2023);
+"";Bemerkung zu 2023-08: Ab 2. August 3,75% (Beschluss des EZB-Rates vom 27. Juli 2023);
+"";Bemerkung zu 2023-09: Ab 20. September 4,00% (Beschluss des EZB-Rates vom 14. September 2023);
+"";Bemerkung zu 2024-06: Ab 12. Juni 3,75% (Beschluss des EZB-Rates vom 6. Juni 2024);
+"";Bemerkung zu 2024-09: Ab 18. September 3,50% (Beschluss des EZB-Rates vom 12. September 2024);
+"";Bemerkung zu 2024-10: Ab 23. Oktober 3,25% (Beschluss des EZB-Rates vom 17. Oktober 2024);
+"";Bemerkung zu 2024-12: Ab 18. Dezember 3,00% (Beschluss des EZB-Rates vom 12. Dezember 2024);
+"";Bemerkung zu 2025-02: Ab 5. Februar 2,75% (Beschluss des EZB-Rates vom 30. Januar 2025);
+"";Bemerkung zu 2025-03: Ab 12. März 2,50% (Beschluss des EZB-Rates vom 6. März 2025);
+"";Bemerkung zu 2025-04: Ab 23. April 2,25% (Beschluss des EZB-Rates vom 17. April 2025);
+"";Bemerkung zu 2025-06: Ab 11. Juni 2,00% (Beschluss des EZB-Rates vom 5. Juni 2025);
+"";Bemerkung zu 2026-06: Ab 17. Juni 2,25% (Beschluss des EZB-Rates vom 11. Juni 2026);
+"";Bemerkung zu 2026-09: Ab 16. September 2,50% (Beschluss des EZB-Rates vom 10. September 2026);

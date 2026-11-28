@@ -4,7 +4,10 @@ video upload, thumbnail and caption upload.
 Usage:
   python3 -m lib.youtube auth-url                      # prints the consent URL
   python3 -m lib.youtube auth-code '<redirect URL or code>'
-  python3 -m lib.youtube upload videos/v001_zinseszins [--public]
+  python3 -m lib.youtube upload videos/v001_zinseszins [--publish-at "2026-12-03 17:30"]
+  python3 -m lib.youtube captions videos/<slug>                                # nur Untertitel nachladen
+  python3 -m lib.youtube schedule videos/v001_zinseszins "2026-12-03 17:30"   # bereits hochgeladenes Video
+  (Zeiten in Europe/Berlin; das Video bleibt bis dahin privat und geht dann automatisch online)
 
 Needs env YT_CLIENT_ID / YT_CLIENT_SECRET (OAuth client of type "Desktop app").
 The refresh token is stored in build/.youtube_token.json (not committed).
@@ -19,7 +22,8 @@ import uuid
 from pathlib import Path
 
 REDIRECT = "http://127.0.0.1:8765"
-SCOPES = "https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/youtube.force-ssl"
+SCOPES = ("https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/youtube.force-ssl "
+          "https://www.googleapis.com/auth/yt-analytics.readonly")
 TOKEN_FILE = Path("build/.youtube_token.json")
 
 
@@ -59,10 +63,15 @@ def exchange(code_or_url):
     TOKEN_FILE.write_text(json.dumps({"refresh_token": tok["refresh_token"]}))
     os.chmod(TOKEN_FILE, 0o600)
     print("OK – Zugang gespeichert. Kanal:", channel()["snippet"]["title"])
+    print(f"Neuen Token als Geheimnis YT_REFRESH_TOKEN übernehmen: Wert steht in {TOKEN_FILE}")
 
 
 def access_token():
-    rt = os.environ.get("YT_REFRESH_TOKEN") or json.loads(TOKEN_FILE.read_text())["refresh_token"]
+    # A token from a fresh auth-code in this container wins over the (possibly older) env secret.
+    rt = (json.loads(TOKEN_FILE.read_text())["refresh_token"] if TOKEN_FILE.exists()
+          else os.environ.get("YT_REFRESH_TOKEN"))
+    if not rt:
+        sys.exit("Kein Refresh-Token: YT_REFRESH_TOKEN setzen oder auth-url/auth-code ausführen")
     cid, sec = _client()
     return _post_form("https://oauth2.googleapis.com/token", dict(
         refresh_token=rt, client_id=cid, client_secret=sec, grant_type="refresh_token"))["access_token"]
@@ -97,7 +106,48 @@ def parse_metadata(md_path):
     return title, desc, tags
 
 
-def upload(video_dir, public=False):
+def publish_at_utc(local):
+    """'YYYY-MM-DD HH:MM' in Europe/Berlin -> RFC3339 UTC, must lie in the future."""
+    import datetime as dt
+    from zoneinfo import ZoneInfo
+    t = dt.datetime.strptime(local, "%Y-%m-%d %H:%M").replace(tzinfo=ZoneInfo("Europe/Berlin"))
+    if t <= dt.datetime.now(dt.timezone.utc) + dt.timedelta(minutes=30):
+        sys.exit(f"Veröffentlichungszeit {local} liegt nicht mindestens 30 min in der Zukunft")
+    return t.astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def schedule(video_dir, local):
+    """Set publishAt on an already uploaded video (id from output/<slug>/youtube_id.txt)."""
+    vid = (Path("output") / Path(video_dir).name / "youtube_id.txt").read_text().strip()
+    token = access_token()
+    cur = _api("GET", f"https://www.googleapis.com/youtube/v3/videos?part=status&id={vid}", token=token)["items"][0]
+    st = cur["status"]
+    if st["privacyStatus"] != "private":
+        sys.exit(f"{vid} ist {st['privacyStatus']} – nur private Videos werden eingeplant")
+    keep = ("embeddable", "license", "publicStatsViewable", "selfDeclaredMadeForKids", "containsSyntheticMedia")
+    status = {k: st[k] for k in keep if k in st}
+    # containsSyntheticMedia is not returned by videos.list – always re-declare it (KI-Stimme)
+    status.update(privacyStatus="private", publishAt=publish_at_utc(local), containsSyntheticMedia=True)
+    res = _api("PUT", "https://www.googleapis.com/youtube/v3/videos?part=status", {"id": vid, "status": status},
+               token=token)
+    print(vid, "eingeplant:", res["status"].get("publishAt"), "Status:", res["status"]["privacyStatus"])
+
+
+def upload_captions(vid, out, token):
+    srt = Path(out) / "video.srt"
+    if srt.exists():
+        boundary = uuid.uuid4().hex
+        part_meta = json.dumps({"snippet": {"videoId": vid, "language": "de", "name": "Deutsch"}})
+        body = (f"--{boundary}\r\nContent-Type: application/json; charset=UTF-8\r\n\r\n{part_meta}\r\n"
+                f"--{boundary}\r\nContent-Type: application/octet-stream\r\n\r\n").encode() \
+            + srt.read_bytes() + f"\r\n--{boundary}--".encode()
+        _api("POST", "https://www.googleapis.com/upload/youtube/v3/captions"
+             "?uploadType=multipart&part=snippet", body, token=token,
+             headers={"Content-Type": f"multipart/related; boundary={boundary}"})
+        print("Untertitel hochgeladen")
+
+
+def upload(video_dir, public=False, publish_at=None):
     video_dir = Path(video_dir)
     slug = video_dir.name
     out = Path("output") / slug
@@ -107,6 +157,7 @@ def upload(video_dir, public=False):
         "snippet": {"title": title, "description": desc, "tags": tags, "categoryId": "27",
                     "defaultLanguage": "de", "defaultAudioLanguage": "de"},
         "status": {"privacyStatus": "public" if public else "private",
+                   **({"publishAt": publish_at_utc(publish_at)} if publish_at and not public else {}),
                    "selfDeclaredMadeForKids": False, "containsSyntheticMedia": True,
                    "embeddable": True, "license": "youtube"},
     }
@@ -120,8 +171,10 @@ def upload(video_dir, public=False):
     res = _api("PUT", loc, video.read_bytes(), token=token,
                headers={"Content-Type": "video/mp4"})
     vid = res["id"]
-    print("Video:", f"https://youtu.be/{vid}", "Status:", res["status"]["privacyStatus"])
+    print("Video:", f"https://youtu.be/{vid}", "Status:", res["status"]["privacyStatus"],
+          "geplant:", res["status"].get("publishAt", "–"))
 
+    (out / "youtube_id.txt").write_text(vid)   # sofort sichern, falls Thumbnail/Untertitel scheitern
     thumb = out / "thumbnail.png"
     if thumb.exists():
         _api("POST", f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={vid}"
@@ -129,17 +182,7 @@ def upload(video_dir, public=False):
              headers={"Content-Type": "image/png"})
         print("Thumbnail gesetzt")
 
-    srt = out / "video.srt"
-    if srt.exists():
-        boundary = uuid.uuid4().hex
-        part_meta = json.dumps({"snippet": {"videoId": vid, "language": "de", "name": "Deutsch"}})
-        body = (f"--{boundary}\r\nContent-Type: application/json; charset=UTF-8\r\n\r\n{part_meta}\r\n"
-                f"--{boundary}\r\nContent-Type: application/octet-stream\r\n\r\n").encode() \
-            + srt.read_bytes() + f"\r\n--{boundary}--".encode()
-        _api("POST", "https://www.googleapis.com/upload/youtube/v3/captions"
-             "?uploadType=multipart&part=snippet", body, token=token,
-             headers={"Content-Type": f"multipart/related; boundary={boundary}"})
-        print("Untertitel hochgeladen")
+    upload_captions(vid, out, token)
     (out / "youtube_id.txt").write_text(vid)
     return vid
 
@@ -151,7 +194,13 @@ if __name__ == "__main__":
     elif cmd == "auth-code":
         exchange(sys.argv[2])
     elif cmd == "upload":
-        upload(sys.argv[2], public="--public" in sys.argv)
+        pa = sys.argv[sys.argv.index("--publish-at") + 1] if "--publish-at" in sys.argv else None
+        upload(sys.argv[2], public="--public" in sys.argv, publish_at=pa)
+    elif cmd == "captions":
+        out = Path("output") / Path(sys.argv[2]).name
+        upload_captions((out / "youtube_id.txt").read_text().strip(), out, access_token())
+    elif cmd == "schedule":
+        schedule(sys.argv[2], sys.argv[3])
     elif cmd == "check":
         print(parse_metadata(Path(sys.argv[2]) / "metadata.md"))
     else:

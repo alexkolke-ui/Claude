@@ -114,11 +114,12 @@ def _render_scene(args):
     sc = scenes[idx]
     for k, v in scene_meta.items():
         setattr(sc, k, v)
-    bg = gfx.make_background()
+    w, h = getattr(mod, "SIZE", (gfx.W, gfx.H))
+    bg = gfx.make_background(w, h)
     frames = int(round(sc.dur * gfx.FPS))
     proc = subprocess.Popen(
         ["ffmpeg", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24",
-         "-s", f"{gfx.W}x{gfx.H}", "-r", str(gfx.FPS), "-i", "-",
+         "-s", f"{w}x{h}", "-r", str(gfx.FPS), "-i", "-",
          "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p", out],
         stdin=subprocess.PIPE)
     for f in range(frames):
