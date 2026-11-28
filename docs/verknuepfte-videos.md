@@ -79,3 +79,35 @@ Am einfachsten jeweils nach dem Tag, an dem das Langvideo online geht.
 - [ ] `s045_kind_60_150` – https://studio.youtube.com/video/Pdq2uqH5rAg/edit
 - [ ] `s046_schwelle_86100` – https://studio.youtube.com/video/lmndvKWmw7E/edit
 - [ ] `s047_freibetrag_mythos` – https://studio.youtube.com/video/5YL8Ojb2fXk/edit
+
+## v013_mindestlohn_2027 – online ab 04.02. · https://youtu.be/e_NYqcQkwV0
+
+- [ ] `s048_mindestlohn_1460` – https://studio.youtube.com/video/5BwxWgLN054/edit
+- [ ] `s049_inflation_frisst` – https://studio.youtube.com/video/4nMvOQ3XStU/edit
+- [ ] `s050_mindestlohn_vergleich` – https://studio.youtube.com/video/4_WiYBI6TRs/edit
+- [ ] `s051_sprung_2022` – https://studio.youtube.com/video/zdtQErA21D4/edit
+- [ ] `s052_mindestlohn_netto` – https://studio.youtube.com/video/uJFktl0oFYg/edit
+
+## v014_festgeld_tagesgeld – online ab 11.02. · https://youtu.be/XpB4qwzeSuY
+
+- [ ] `s053_festgeld_283` – https://studio.youtube.com/video/4a1BfBrs1cc/edit
+- [ ] `s054_10000_ein_jahr` – https://studio.youtube.com/video/mxOdZCxtwms/edit
+- [ ] `s055_festgeld_inflation` – https://studio.youtube.com/video/8gJC7rExp3o/edit
+- [ ] `s056_steuerfrei_35300` – https://studio.youtube.com/video/RFPnq9RzDvg/edit
+- [ ] `s057_festgeld_bindung` – https://studio.youtube.com/video/PikdS6EOq8c/edit
+
+## v015_sondertilgung – online ab 18.02. · https://youtu.be/MZGFyNrH5Og
+
+- [ ] `s058_dispo_rendite` – https://studio.youtube.com/video/3MyAzeaDeIY/edit
+- [ ] `s059_sondertilgung_vs_festgeld` – https://studio.youtube.com/video/xlMFA-x2bBA/edit
+- [ ] `s060_sparen_mythos` – https://studio.youtube.com/video/iRBHjPEuIfU/edit
+- [ ] `s061_ratenkredit_vorzeitig` – https://studio.youtube.com/video/eb0AMF2j4oY/edit
+- [ ] `s062_steuerfrei_tilgen` – https://studio.youtube.com/video/2zGj9Ko8AIQ/edit
+
+## v016_krankenkasse_2027 – online ab 25.02. · https://youtu.be/QNcZhOM0GUM
+
+- [ ] `s063_kv_4922` – https://studio.youtube.com/video/nDX3rZHpw4s/edit
+- [ ] `s064_kv_wer_zahlt` – https://studio.youtube.com/video/XpVawDvwO9s/edit
+- [ ] `s065_kv_mythos` – https://studio.youtube.com/video/hf1AYHGo3ZM/edit
+- [ ] `s066_zusatzbeitrag_1pp` – https://studio.youtube.com/video/_R3O8koAtR0/edit
+- [ ] `s067_kasse_wechseln` – https://studio.youtube.com/video/x9i32FbTKzM/edit
