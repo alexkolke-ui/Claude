@@ -7,6 +7,8 @@ Immobilienpreise 2026: +1,5 % – aber unter dem Hoch von 2022 #Shorts
 
 Selbst genutztes Wohneigentum war im 3. Quartal 2026 1,5 % teurer als ein Jahr zuvor (vdp-Index). Destatis meldet für das 2. Quartal +0,6 %. Trotzdem liegen die Preise rund 2,7 % unter dem Höchststand vom 3. Quartal 2022. Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/OfKtjJ0RvJc
+
 📊 Quellen: Verband deutscher Pfandbriefbanken (vdp) und Destatis-Häuserpreisindex, über das Indikatorensystem Wohnimmobilienmarkt der Bundesbank.
 📐 vdp: 193,9 ÷ 191,1 − 1 ≈ +1,5 %; 193,9 ÷ 199,2 − 1 ≈ −2,7 %.
 

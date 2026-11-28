@@ -7,6 +7,8 @@ Was sind 100 € von Oktober 2025 heute noch wert? #Shorts
 
 Der Verbraucherpreisindex stieg von Oktober 2025 (123,0) bis Oktober 2026 (126,5). Ein Einkauf für 100 € kostet jetzt rund 102,85 €. 100 € ohne Zinsen sind nur noch rund 97,23 € wert. Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/OfKtjJ0RvJc
+
 📊 Quellen: Verbraucherpreisindex 2020 = 100, Bundesbank-Reihe BBDP1 auf Basis von Destatis-Daten.
 📐 Kaufkraft = 100 € × 123,0 ÷ 126,5 ≈ 97,23 €.
 

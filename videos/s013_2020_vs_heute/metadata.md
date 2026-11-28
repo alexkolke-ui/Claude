@@ -7,6 +7,8 @@ Warum Kaufen 2020 so attraktiv war – und heute nicht mehr #Shorts
 
 2020: Mietrendite 3,5 %, Bauzins rund 1,1 %. Heute: Mietrendite 3,8 % (2025), Bauzins 3,91 % (September 2026). Der Vorteil durch billige Kredite ist praktisch verschwunden. Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/ptx218q4Psc
+
 📊 Quellen: Deutsche Bundesbank: Kaufpreis/Jahresmietsverhältnis (Indikatorensystem Wohnimmobilienmarkt), Bauzins MFI-Zinsstatistik SUD118 (Jahresschnitt 2020, September 2026 vorläufig).
 📐 Mietrendite = 1 ÷ Kaufpreis-Miet-Faktor (2020: 28,5; 2025: 26,1).
 

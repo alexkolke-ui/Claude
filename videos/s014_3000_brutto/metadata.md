@@ -7,6 +7,8 @@
 
 3.000 € brutto, Steuerklasse I, kinderlos, ohne Kirchensteuer: 652,50 € Sozialversicherung, 293,08 € Lohnsteuer, kein Soli. Netto: 2.054,42 €. Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/j81rroY1oWI
+
 📊 Quellen: Berechnung nach dem Programmablaufplan Lohnsteuer 2026 des BMF; Sozialversicherungssätze 2026, Krankenkassen-Zusatzbeitrag Durchschnitt 2,9 %.
 📐 SV: 9,3 % + 1,3 % + 8,75 % + 2,4 % = 21,75 %; zu versteuerndes Einkommen 27.480 € → 3.517 € Lohnsteuer pro Jahr.
 

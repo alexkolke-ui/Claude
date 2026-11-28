@@ -7,6 +7,8 @@ Kindergeld UND Kinderfreibetrag? Nein, nur eins #Shorts
 
 Das Finanzamt macht eine Günstigerprüfung: Beispiel Eltern mit 60.000 € zu versteuerndem Einkommen – der Freibetrag würde 2.668 € Steuer sparen, das Kindergeld bringt 3.108 €. Also bleibt es beim Kindergeld. Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/gF3d0xV5CjE
+
 📊 Quellen: Kindergeld 2026 259 €/Monat; Kinderfreibeträge 9.756 € je Kind (Eltern zusammen); Günstigerprüfung § 31 EStG; Tarif 2026, Splitting.
 📐 Ersparnis = ESt_Split(60.000) − ESt_Split(60.000 − 9.756) = 2.668 €.
 

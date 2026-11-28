@@ -7,6 +7,8 @@ Spitzensteuersatz = 42 % auf alles? Nein. #Shorts
 
 Bei 80.000 € zu versteuerndem Einkommen beträgt die Einkommensteuer 2026 22.464 € – im Schnitt rund 28,1 %. Die 42 % gelten nur für den Teil über 69.878 €. Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/j81rroY1oWI
+
 📊 Quellen: § 32a EStG, Grundtarif 2026 (laut Programmablaufplan des BMF).
 📐 ESt = 0,42 × 80.000 − 11.135,63 = 22.464 €; 22.464 ÷ 80.000 ≈ 28,1 %. Ohne Solidaritätszuschlag.
 

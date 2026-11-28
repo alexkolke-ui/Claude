@@ -7,6 +7,8 @@
 
 Von 3.500 € Weihnachtsgeld bleiben 2026 in Steuerklasse I nur 1.915,75 € netto (54,7 %): 823 € Lohnsteuer, 761,25 € Sozialversicherung. Vom normalen Monatsgehalt in gleicher Höhe bleiben 66,7 %. Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/5GDbAp_85Lk
+
 📊 Quellen: Berechnung nach dem Programmablaufplan Lohnsteuer 2026 des BMF, Jahreslohn-Methode; Sozialversicherungssätze 2026.
 📐 Lohnsteuer = Jahressteuer mit (5.689 €) − ohne (4.866 €) Weihnachtsgeld = 823 €. Kinderlos, ohne Kirchensteuer.
 

@@ -7,6 +7,8 @@ Gehaltserhöhung lohnt sich nicht? Der Mythos im Check #Shorts
 
 100 € mehr brutto bringen 2026 netto mehr: bei 3.000 € brutto +56,33 €, bei 5.000 € brutto +51,00 € (Steuerklasse I, kinderlos). Der höhere Steuersatz gilt nur für den zusätzlichen Euro. Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/j81rroY1oWI
+
 📊 Quellen: Berechnung nach dem Programmablaufplan Lohnsteuer 2026 des BMF; Sozialversicherungssätze 2026.
 📐 Netto(3.100 €) − Netto(3.000 €) = 56,33 €; Netto(5.100 €) − Netto(5.000 €) = 51,00 €.
 

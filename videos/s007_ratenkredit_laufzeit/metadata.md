@@ -7,6 +7,8 @@
 
 10.000 € Ratenkredit zum durchschnittlichen effektiven Jahreszins von 8,91 % (September 2026): Über 3 Jahre zahlst du rund 316 € im Monat und 1.375 € Zinsen, über 7 Jahre rund 159 € im Monat, aber 3.330 € Zinsen. Die kleinere Rate kostet rund 1.955 € mehr. Was Dispo und Baukredit kosten, im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/U40H1OaJqS8
+
 📊 Quelle: Deutsche Bundesbank, MFI-Zinsstatistik, Reihe SUD130 (Konsumentenkredite an private Haushalte, Neugeschäft, effektiver Jahreszinssatz einschl. Kosten), Stand 02.11.2026, September 2026 vorläufig.
 📐 Annuität mit Monatszins = 1,0891^(1/12) − 1; vereinfachend gleicher Zins für beide Laufzeiten.
 

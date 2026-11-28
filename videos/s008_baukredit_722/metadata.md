@@ -7,6 +7,8 @@
 
 300.000 € Baukredit, 10 Jahre Zinsbindung, 2 % anfängliche Tilgung: Im Dezember 2020 lag der Durchschnittszins bei 1,02 %, die Rate bei 755 €. Im September 2026 sind es 3,91 % und 1.477,50 € im Monat, 722,50 € mehr. Zinsen in 10 Jahren: rund 104.000 € statt rund 27.500 €. Die ganze Rechnung im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/U40H1OaJqS8
+
 📊 Quelle: Deutsche Bundesbank, MFI-Zinsstatistik, Reihe SUD118 (Wohnungsbaukredite an private Haushalte, Zinsbindung über 5 bis 10 Jahre, Neugeschäft), Stand 02.11.2026, September 2026 vorläufig.
 📐 Rate = 300.000 € × (Zins + 2 %) ÷ 12, Monatszins = Zins ÷ 12, Zinssatz der Reihe als Sollzins genähert. Ohne Kaufnebenkosten und Gebühren.
 

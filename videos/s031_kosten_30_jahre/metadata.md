@@ -7,6 +7,8 @@
 
 Modellrechnung: 150 €/Monat + 540 € Zulage, 30 Jahre, 5 % Rendite vor Kosten angenommen. Bei 1,0 % Kosten ≈ 131.200 €, bei 0,5 % ≈ 142.800 €. Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/W77gqjrbSUA
+
 📊 Quellen: Bundesministerium der Finanzen, FAQ zur Reform der geförderten privaten Altersvorsorge (abgerufen 26.11.2026).
 📐 Endwert = 2.340 € × ((1 + r)^30 − 1) ÷ r mit r = 4,0 % bzw. 4,5 %. Annahme, keine Prognose; Kurse können fallen.
 

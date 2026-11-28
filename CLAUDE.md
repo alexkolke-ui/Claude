@@ -30,7 +30,8 @@ Skript → Google-TTS (Stimme `de-DE-Chirp3-HD-Iapetus`) → PIL-Animationen →
 - Inhalt nur im sicheren Bereich: x 60–940, y 200–1470 (rechts Buttons, unten Titel-Overlay).
 - Zahlen aus dem Modell des Langvideos importieren (dessen `assert`s gelten mit), eigene `assert`s für Gesagtes.
 - Rhythmus (ab 30.11.2026): 1 Langvideo Do 17:30 + 4–5 Shorts (Mo, Di, Mi, Sa, So, je 17:00).
-  „Verknüpftes Video“ setzt der Nutzer im Studio.
+  „Verknüpftes Video“ geht nicht per API – setzt der Nutzer im Studio (Checkliste: `docs/verknuepfte-videos.md`).
+  Jede Short-Beschreibung bekommt unter dem ersten Absatz „▶ Ganzes Video: https://youtu.be/<ID des Langvideos>“.
 - Formate abwechseln, nicht 5× dieselbe Kartenoptik: „Zahl der Woche“, „Mythos vs. Rechnung“, „Was kostet X wirklich?“.
 
 ## Inhaltliche Regeln

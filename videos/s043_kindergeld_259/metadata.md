@@ -7,6 +7,8 @@
 
 Kindergeld 2026: 259 € pro Kind und Monat, 3.108 € im Jahr, bis zum 18. Geburtstag beim heutigen Satz 55.944 €. Oder doch der Kinderfreibetrag? Es gibt nur eins von beidem. Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/gF3d0xV5CjE
+
 📊 Quellen: Kindergeld 2026 259 €/Monat; Kinderfreibeträge 9.756 € je Kind (Eltern zusammen); Günstigerprüfung § 31 EStG; Tarif 2026, Splitting.
 📐 18 × 3.108 € = 55.944 €.
 

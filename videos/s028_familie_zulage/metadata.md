@@ -7,6 +7,8 @@
 
 25 € im Monat ins Altersvorsorgedepot: ohne Kind 150 € Grundzulage im Jahr, mit zwei Kindern zusätzlich 2 × 300 € Kinderzulage = 750 € auf 300 € Eigenbeitrag. Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/W77gqjrbSUA
+
 📊 Quellen: Bundesministerium der Finanzen, FAQ zur Reform der geförderten privaten Altersvorsorge (abgerufen 26.11.2026).
 📐 Kinderzulage = 1 € je Euro Eigenbeitrag, max. 300 € pro Kind und Jahr.
 

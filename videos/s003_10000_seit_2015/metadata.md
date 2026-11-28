@@ -7,6 +7,8 @@
 
 10.000 € zum Durchschnittszins der Banken auf täglich verfügbares Geld, angelegt Anfang 2015: Bis September 2026 stehen rund 10.210 € auf dem Konto. Die Preise sind aber um 36 % gestiegen, die Kaufkraft liegt nur noch bei rund 7.510 € (in Preisen von 2015). Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/nbPEM1sIjIM
+
 📊 Quellen: Deutsche Bundesbank, MFI-Zinsstatistik, Reihe SUD101 (Effektivzins täglich fälliger Einlagen privater Haushalte, Neugeschäft); Verbraucherpreisindex (Bundesbank-Reihe BBDP1 auf Basis von Destatis-Daten). Stand 02.11.2026, September 2026 vorläufig.
 📐 Modellrechnung mit echten Daten: angelegt Ende Januar 2015, monatliche Zinsgutschrift mit dem jeweiligen Durchschnittszins ÷ 12 → ≈ 10.211 €; Kaufkraft = Kontostand ÷ (VPI Sept. 2026 ÷ VPI Jan. 2015) = 10.211 € ÷ (126,6 ÷ 93,1) ≈ 7.509 €. Ohne Steuern.
 

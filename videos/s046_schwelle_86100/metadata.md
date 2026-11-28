@@ -7,6 +7,8 @@ Ab 86.100 € lohnt sich der Kinderfreibetrag #Shorts
 
 Für zusammen veranlagte Eltern mit einem Kind spart der Kinderfreibetrag ab rund 86.100 € zu versteuerndem Einkommen mehr Steuer, als das Kindergeld (3.108 €) bringt. Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/gF3d0xV5CjE
+
 📊 Quellen: Kindergeld 2026 259 €/Monat; Kinderfreibeträge 9.756 € je Kind (Eltern zusammen); Günstigerprüfung § 31 EStG; Tarif 2026, Splitting.
 📐 Schwelle: kleinstes zvE mit Ersparnis über 3.108 €, Schrittweite 100 €.
 

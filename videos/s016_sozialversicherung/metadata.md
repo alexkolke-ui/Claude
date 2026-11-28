@@ -7,6 +7,8 @@
 
 Arbeitnehmeranteile 2026: Rente 9,3 %, Arbeitslosenversicherung 1,3 %, Krankenversicherung im Schnitt 8,75 %, Pflege 2,4 % für Kinderlose. Zusammen 21,75 % – bei 3.000 € brutto 652,50 € im Monat. Der Arbeitgeber zahlt ungefähr noch einmal so viel. Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/j81rroY1oWI
+
 📊 Quellen: Beitragssätze 2026; Krankenversicherung 7,3 % + halber durchschnittlicher Zusatzbeitrag (2,9 %), Pflege 1,8 % + 0,6 % Zuschlag für Kinderlose.
 📐 3.000 € × 21,75 % = 652,50 €.
 

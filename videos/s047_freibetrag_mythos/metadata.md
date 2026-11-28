@@ -7,6 +7,8 @@ Spart der Kinderfreibetrag 9.756 € Steuern? Nein. #Shorts
 
 Ein Freibetrag senkt das zu versteuernde Einkommen, nicht die Steuer. Die tatsächliche Ersparnis für Eltern mit einem Kind: 2.668 € bei 60.000 €, 3.344 € bei 100.000 €, 4.098 € bei 150.000 € zu versteuerndem Einkommen. Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/gF3d0xV5CjE
+
 📊 Quellen: Kindergeld 2026 259 €/Monat; Kinderfreibeträge 9.756 € je Kind (Eltern zusammen); Günstigerprüfung § 31 EStG; Tarif 2026, Splitting.
 📐 Ersparnis = Freibetrag × Steuersatz; bei 42 % max. ≈ 4.098 €.
 

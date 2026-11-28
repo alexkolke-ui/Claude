@@ -7,6 +7,8 @@ Inflation 2026: 2,6 % im Schnitt #Shorts
 
 Die Inflation lag 2026 von Januar bis Oktober im Schnitt bei rund 2,6 %. Tiefster Wert: Februar mit 1,9 %, höchster: September mit 3,3 %, Oktober 2,8 %. 2025 waren es im Jahresschnitt 2,2 %. Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/OfKtjJ0RvJc
+
 📊 Quellen: Verbraucherpreisindex, Bundesbank-Reihe BBDP1 auf Basis von Destatis-Daten, Stand 25.11.2026.
 📐 Mittelwert der Monatsraten Januar bis Oktober 2026 = 2,63 %.
 

@@ -7,6 +7,8 @@ Steuererklärung lohnt sich nicht? Kommt auf den Arbeitsweg an #Shorts
 
 3.000 € brutto, nur der Arbeitsweg: 10 km → 0 €, 20 km → ≈ 120 €, 30 km → ≈ 346 €, 40 km → ≈ 570 € zurück pro Jahr (vereinfacht). Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/PunAxjjGxBQ
+
 📊 Quellen: Entfernungspauschale 0,38 €/km ab dem 1. km, Homeoffice-Pauschale 6 €/Tag (max. 1.260 €), Arbeitnehmer-Pauschbetrag 1.230 € (Steuerjahr 2026); Einkommensteuertarif 2026 laut BMF-Programmablaufplan.
 📐 Erstattung ≈ ESt(27.480 €) − ESt(27.480 € − Werbungskosten über 1.230 €), StKl. I, 220 Tage.
 

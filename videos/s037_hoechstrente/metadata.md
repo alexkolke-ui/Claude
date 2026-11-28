@@ -7,6 +7,8 @@
 
 Rentenbeiträge zählen nur bis zur Beitragsbemessungsgrenze von 8.450 € im Monat – höchstens 1,95 Rentenpunkte pro Jahr. Nach 45 Jahren sind das in heutigen Werten maximal rund 3.735 € Rente brutto. Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/R1oAV_C5eMo
+
 📊 Quellen: Deutsche Rentenversicherung: aktueller Rentenwert 42,52 € ab 1.7.2026, vorläufiges Durchschnittsentgelt 2026 51.944 €, Beitragsbemessungsgrenze 8.450 €/Monat.
 📐 101.400 € ÷ 51.944 € × 45 × 42,52 € ≈ 3.735 €.
 

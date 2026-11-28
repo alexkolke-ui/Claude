@@ -7,6 +7,8 @@
 
 Eine Eigentumswohnung kostet in Deutschland im Schnitt das 26,1-Fache ihrer Jahreskaltmiete (2025). In 127 Städten sind es 27,1, in den 7 größten Städten 30,6. Umgedreht: rund 3,83 % Mietrendite pro Jahr, vor allen Kosten. Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/ptx218q4Psc
+
 📊 Quellen: Deutsche Bundesbank, Indikatorensystem Wohnimmobilienmarkt (Kaufpreis/Jahresmietsverhältnis von Eigentumswohnungen, bulwiengesa-Daten).
 📐 Mietrendite = 1 ÷ 26,1 ≈ 3,83 %.
 

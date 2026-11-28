@@ -7,6 +7,8 @@
 
 Ein Rentenpunkt bringt seit Juli 2026 42,52 € Monatsrente. Einen Punkt gibt es für ein Jahr mit Durchschnittsverdienst (vorläufig 51.944 €). 45 Punkte = Standardrente von 1.913,40 €. Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/R1oAV_C5eMo
+
 📊 Quellen: Deutsche Rentenversicherung: aktueller Rentenwert 42,52 € ab 1.7.2026, vorläufiges Durchschnittsentgelt 2026 51.944 €, Beitragsbemessungsgrenze 8.450 €/Monat.
 📐 Rente = Entgeltpunkte × aktueller Rentenwert.
 

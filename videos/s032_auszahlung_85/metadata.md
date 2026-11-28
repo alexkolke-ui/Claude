@@ -7,6 +7,8 @@ Altersvorsorgedepot: Wie kommt das Geld im Alter zurück? #Shorts
 
 Auszahlung ab 65 (früher bei gesetzlicher Altersrente), spätestens ab 70: lebenslange Rente oder Auszahlplan bis mindestens 85 – der Rest ist vererbbar. Versteuert wird die Auszahlung voll im Alter. Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/W77gqjrbSUA
+
 📊 Quellen: Bundesministerium der Finanzen, FAQ zur Reform der geförderten privaten Altersvorsorge (abgerufen 26.11.2026).
 📐 Regeln laut BMF-FAQ zur Auszahlungsphase.
 
