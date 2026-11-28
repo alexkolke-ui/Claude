@@ -1,0 +1,17 @@
+{
+  "_hinweis": "Playlists des Kanals. Einträge sind Video-Ordner (Video-ID aus output/<slug>/youtube_id.txt) oder direkte YouTube-IDs. Reihenfolge = Reihenfolge in der Playlist. Anwenden: python3 -m lib.playlists",
+  "playlists": [
+    {"title": "Sparen, Zinsen & Inflation – nachgerechnet",
+     "description": "Tagesgeld, Festgeld, Inflation und Kaufkraft – mit offiziellen Daten von Bundesbank und Destatis nachgerechnet. Keine Anlageberatung.",
+     "videos": ["7XsFUVrUOvQ", "v003_tagesgeld", "v008_2026_in_zahlen", "v014_festgeld_tagesgeld"]},
+    {"title": "Kredite & Immobilien – nachgerechnet",
+     "description": "Dispo, Ratenkredit, Baufinanzierung, Mieten oder Kaufen und Sondertilgung – mit den Durchschnittszinsen der Bundesbank. Keine Kredit- oder Finanzberatung.",
+     "videos": ["v004_kredite", "v005_mieten_kaufen", "v015_sondertilgung"]},
+    {"title": "Steuern & Gehalt – nachgerechnet",
+     "description": "Brutto, netto, Weihnachtsgeld, Steuererklärung, Kindergeld, Mindestlohn und Krankenkasse – nach den offiziellen Regeln nachgerechnet. Keine Steuerberatung.",
+     "videos": ["v006_brutto_netto", "v007_weihnachtsgeld", "v011_steuererklaerung", "v012_kindergeld_freibetrag", "v013_mindestlohn_2027", "v016_krankenkasse_2027"]},
+    {"title": "Rente & Altersvorsorge – nachgerechnet",
+     "description": "Zinseszins, gesetzliche Rente und das neue Altersvorsorgedepot – mit offiziellen Werten nachgerechnet. Keine Anlage- oder Rentenberatung.",
+     "videos": ["lTZmTgUZJp8", "v009_altersvorsorgedepot", "v010_gesetzliche_rente"]}
+  ]
+}

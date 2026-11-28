@@ -15,6 +15,8 @@ Skript → Google-TTS (Stimme `de-DE-Chirp3-HD-Iapetus`) → PIL-Animationen →
 3. `python3 build.py videos.vNNN_slug.scenes` → `output/vNNN_slug/video.mp4` + `video.srt`.
    TTS wird in `build/tts_cache/` zwischengespeichert (kostet beim Neu-Rendern kein Kontingent).
 4. Thumbnail-Skript + `metadata.md` (Struktur wie v001; Kapitel aus `build/<slug>/timing.json`).
+   Neues Langvideo in die passende Themen-Playlist in `brand/playlists.json` eintragen, nach dem Upload
+   `python3 -m lib.playlists` (idempotent).
 5. Upload: `python3 -m lib.youtube upload videos/vNNN_slug` → landet als **privat** (API-Projekt ungeprüft);
    der Nutzer veröffentlicht selbst. Nie ohne Rückfrage öffentlich schalten.
    Einplanen nur mit vom Nutzer bestätigtem Termin: `--publish-at "YYYY-MM-DD HH:MM"` beim Upload oder
