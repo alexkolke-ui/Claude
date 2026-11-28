@@ -7,6 +7,8 @@
 
 10.000 € ein Jahr zum Durchschnittszins: auf Tagesgeld und Girokonto 52 €, als Festgeld über 2 Jahre 283 € – dafür ist das Geld gebunden. Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/XpB4qwzeSuY
+
 📊 Quellen: Deutsche Bundesbank, MFI-Zinsstatistik, Neugeschäft, private Haushalte (SUD101–SUD104), September 2026 vorläufig.
 📐 10.000 € × 0,52 % bzw. × 2,83 %, vor Steuern.
 

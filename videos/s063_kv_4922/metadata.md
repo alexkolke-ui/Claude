@@ -7,6 +7,8 @@ Krankenkasse 2027: bis zu 49,22 € mehr im Monat #Shorts
 
 Die Beitragsbemessungsgrenze der Krankenversicherung steigt 2027 vorläufig von 5.812,50 € auf 6.375 €. Der Höchstbeitrag (Arbeitnehmeranteil, Ø-Zusatzbeitrag) steigt von 508,59 € auf 557,81 € – obwohl der Beitragssatz gleich bleibt. Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/QNcZhOM0GUM
+
 📊 Quellen: Ø-Zusatzbeitrag 2027 2,9 % (BMG, 30.10.2026); Beitragsbemessungsgrenze KV 2027 vorläufig 6.375 €/Monat (2026: 5.812,50 €); § 175 SGB V.
 📐 6.375 € × 8,75 % − 5.812,50 € × 8,75 % = 49,22 €.
 

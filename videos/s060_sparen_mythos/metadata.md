@@ -7,6 +7,8 @@ Sparen immer besser als Schulden tilgen? Nein #Shorts
 
 Was ein Euro im Schnitt bringt: Dispo tilgen 9,59 %, Baukredit tilgen 3,91 %, Festgeld nach Steuer 2,08 %, Tagesgeld & Giro 0,52 %. Teure Schulden zuerst – Notgroschen behalten. Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/MZGFyNrH5Og
+
 📊 Quellen: Deutsche Bundesbank, MFI-Zinsstatistik, Durchschnittszinsen September 2026 (SUD112, SUD130, SUD118, SUD104, SUD101); § 32d EStG; § 500, § 502 BGB.
 📐 Durchschnittszinsen September 2026.
 

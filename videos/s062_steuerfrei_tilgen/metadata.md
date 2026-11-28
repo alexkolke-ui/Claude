@@ -7,6 +7,8 @@
 
 Über dem Sparerpauschbetrag werden Zinsen mit 26,375 % besteuert: aus 2,83 % Festgeld werden 2,08 %. Gesparte Kreditzinsen beim Baukredit (3,91 %) sind dagegen steuerfrei. Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/MZGFyNrH5Og
+
 📊 Quellen: Deutsche Bundesbank, MFI-Zinsstatistik, Durchschnittszinsen September 2026 (SUD112, SUD130, SUD118, SUD104, SUD101); § 32d EStG; § 500, § 502 BGB.
 📐 2,83 % × (1 − 0,26375) ≈ 2,08 %.
 

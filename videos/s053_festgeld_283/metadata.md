@@ -7,6 +7,8 @@ Festgeld: 2,83 % im Schnitt – Tagesgeld & Giro nur 0,52 % #Shorts
 
 Durchschnittszinsen September 2026: Festgeld über 2 Jahre 2,83 %, 1–2 Jahre 2,78 %, bis 1 Jahr 2,39 %; täglich fällige Einlagen (Tagesgeld und Girokonten) 0,52 %. Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/XpB4qwzeSuY
+
 📊 Quellen: Deutsche Bundesbank, MFI-Zinsstatistik, Neugeschäft, private Haushalte (SUD101–SUD104), September 2026 vorläufig.
 📐 Durchschnittszinsen, keine Einzelangebote.
 

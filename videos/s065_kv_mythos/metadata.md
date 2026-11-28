@@ -7,6 +7,8 @@
 
 Der durchschnittliche Beitragssatz bleibt 2027 bei 17,5 %, aber die Beitragsgrenze steigt um 562,50 € im Monat – Gutverdiener zahlen dadurch bis zu 49,22 € mehr. Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/QNcZhOM0GUM
+
 📊 Quellen: Ø-Zusatzbeitrag 2027 2,9 % (BMG, 30.10.2026); Beitragsbemessungsgrenze KV 2027 vorläufig 6.375 €/Monat (2026: 5.812,50 €); § 175 SGB V.
 📐 Höchstbeitrag Arbeitnehmer 557,81 € (2027) vs. 508,59 € (2026).
 

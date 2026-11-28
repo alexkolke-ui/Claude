@@ -7,6 +7,8 @@
 
 Im Oktober 2022 stieg der Mindestlohn von 10,45 € auf 12,00 € – ein Plus von 14,8 %, mitten in der höchsten Inflation (8,8 % im Oktober 2022). Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/e_NYqcQkwV0
+
 📊 Quellen: Mindestlohn: MiLoG, Beschluss der Mindestlohnkommission vom 27.06.2025 (13,90 € 2026, 14,60 € 2027); Verbraucherpreisindex Bundesbank BBDP1/Destatis.
 📐 12,00 ÷ 10,45 − 1 ≈ 14,8 %.
 

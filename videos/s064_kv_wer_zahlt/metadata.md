@@ -7,6 +7,8 @@ Krankenkasse 2027: Wer mehr zahlt – und wer nicht #Shorts
 
 Bei 5.000 € brutto ändert sich der Krankenkassenbeitrag 2027 nicht (437,50 €, gleicher Zusatzbeitrag vorausgesetzt). Bei 7.000 € steigt er von 508,59 € auf 557,81 €. Betroffen sind nur Gehälter über 5.812,50 €. Die ganze Rechnung gibt's im Video auf dem Kanal.
 
+▶ Ganzes Video: https://youtu.be/QNcZhOM0GUM
+
 📊 Quellen: Ø-Zusatzbeitrag 2027 2,9 % (BMG, 30.10.2026); Beitragsbemessungsgrenze KV 2027 vorläufig 6.375 €/Monat (2026: 5.812,50 €); § 175 SGB V.
 📐 Arbeitnehmeranteil 8,75 % bis zur Grenze.
 
